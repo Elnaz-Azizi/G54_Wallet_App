@@ -12,6 +12,10 @@ import java.math.BigDecimal;
 @Service
 public class WalletServiceImpl implements WalletService {
 
+    /*
+    Dependency refers to a relationship where one class or component relies on another to function properly.
+    In other words, a class or component needs another class to do its job.
+     */
     private WalletDao walletDao;
     private TransactionDao transactionDao;
 
